@@ -51,13 +51,10 @@ The architecture of the real-time data pipeline consists of the following compon
 Verify that the processed sensor data is being stored in the MongoDB database.
 
 
-# Future Improvements
-- Add support for multiple Kafka topics and partitions to improve scalability.
 
-- Implement a more advanced data validation and error handling system.
+# Future Improvements
+ - Add real-time monitoring componnent like prometheus or Datadog
 
 - Add a real-time visualization component to display the processed sensor data.
 
-- Implement a machine learning model to predict future sensor data values based on historical data.
-
-- Add support for real-time alerts and notifications based on specific sensor data thresholds.
+- Add support for real-time alerts and notifications based on specific data thresholds.
